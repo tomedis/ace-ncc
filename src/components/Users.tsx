@@ -30,12 +30,12 @@ const Users = () => {
           <View style={styles.container} key={user.id}>
             <View>
               <View style={styles.dataContainer}>
-                <Text>
+                <Text style={{ color: 'black' }}>
                   {user.first_name} {user.last_name}
                 </Text>
               </View>
               <View style={styles.dataContainer}>
-                <Text>{user.email}</Text>
+                <Text style={{ color: 'black' }}>{user.email}</Text>
               </View>
             </View>
           </View>

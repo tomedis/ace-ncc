@@ -8,7 +8,7 @@ const Message = () => {
   const { message } = useAppSelector(state => state.message);
 
   const handlePress = () => {
-    dispatch(setMessage('Message from Component'));
+    dispatch(setMessage('Loi huynh'));
   };
 
   return (
@@ -29,5 +29,6 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 18,
+    color: 'black',
   },
 });

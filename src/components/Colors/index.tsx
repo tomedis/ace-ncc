@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
   },
   capitalizedText: {
     textTransform: 'capitalize',
+    color: 'black'
   },
   colorDetailsContainer: {
     paddingVertical: 5,

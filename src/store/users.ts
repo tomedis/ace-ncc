@@ -1,6 +1,6 @@
 import {
   createAsyncThunk,
-  createEntityAdapter,
+  createEntityAdapter, createSelector,
   createSlice,
 } from '@reduxjs/toolkit';
 import { RootState } from '.';

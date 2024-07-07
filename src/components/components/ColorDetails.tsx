@@ -47,8 +47,10 @@ const styles = StyleSheet.create({
   },
   label: {
     fontWeight: '600',
+    color: 'black',
   },
   capitalizedText: {
     textTransform: 'capitalize',
+    color: 'black',
   },
 });
